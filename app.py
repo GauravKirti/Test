@@ -5,6 +5,6 @@ def googleSearch(query):
         url = 'https://www.google.co.in'
         query = {'q': query}
         urllink = requests.get(url, params=query)
-        print urllink.url
+        print(urllink.url)
 
 googleSearch('python')
