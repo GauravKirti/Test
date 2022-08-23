@@ -1,1 +1,1 @@
-requests
+requests --proxy "http://pnhprx01:8080"
